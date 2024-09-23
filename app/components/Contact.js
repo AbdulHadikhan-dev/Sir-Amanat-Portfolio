@@ -64,11 +64,11 @@ const Contact = () => {
       </div>
       <div className="3 flex flex-col gap-2 md:mx-8 lg:mx-12 xl:mx-20">
         <div className="flex items-center">
-          <div className="h-2 w-2 lg:h-4 lg:w-4 bg-[#242b41] rounded-full flex justify-center items-center">
+          <div className="h-2 w-2 lg:h-4 lg:w-4 bg-[#5777ff] rounded-full flex justify-center items-center">
             <div className="h-1/3 w-1/3 bg-white rounded-full"></div>
           </div>
-          <div className="w-full h-1 bg-[#242b41] lg:h-[6px]"></div>
-          <div className="h-2 w-2 lg:h-4 lg:w-4 bg-[#242b41] rounded-full flex justify-center items-center">
+          <div className="w-full h-1 bg-[#5777ff] lg:h-[6px]"></div>
+          <div className="h-2 w-2 lg:h-4 lg:w-4 bg-[#5777ff] rounded-full flex justify-center items-center">
             <div className="h-1/3 w-1/3 bg-white rounded-full"></div>
           </div>
         </div>
@@ -76,11 +76,11 @@ const Contact = () => {
           amanat ali
         </div>
         <div className="flex items-center">
-          <div className="h-2 w-2 lg:h-4 lg:w-4 bg-[#242b41] rounded-full flex justify-center items-center">
+          <div className="h-2 w-2 lg:h-4 lg:w-4 bg-[#5777ff] rounded-full flex justify-center items-center">
             <div className="h-1/3 w-1/3 bg-white rounded-full"></div>
           </div>
-          <div className="w-full h-1 bg-[#242b41] lg:h-[6px]"></div>
-          <div className="h-2 w-2 lg:h-4 lg:w-4 bg-[#242b41] rounded-full flex justify-center items-center">
+          <div className="w-full h-1 bg-[#5777ff] lg:h-[6px]"></div>
+          <div className="h-2 w-2 lg:h-4 lg:w-4 bg-[#5777ff] rounded-full flex justify-center items-center">
             <div className="h-1/3 w-1/3 bg-white rounded-full"></div>
           </div>
         </div>

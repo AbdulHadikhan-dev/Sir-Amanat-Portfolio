@@ -17,11 +17,16 @@ const Hero = ({ src, title, name, array }) => {
       // Destroy Typed instance during cleanup to stop animation
       typed.destroy();
     };
-  }, []);
+  });
+
+  const handleAbout = () => {
+    document.body.scrollTop = 540; // For Safari
+    document.documentElement.scrollTop = 540; // For Chrome, Firefox, IE and Opera
+  };
 
   return (
     <>
-      <div className="main flex flex-col sm:flex-row sm:py-0 pt-20 bg-blue-50">
+      <div className="main flex flex-col sm:flex-row sm:py-0 pt-32 bg-blue-50">
         <div className="left-section w-full flex flex-col justify-center text-3xl gap-4 sm:w-[50%] md:text-4xl sm:text-3xl lg:text-5xl xl:text-6xl font-semibold">
           <div className="mx-0 flex flex-col justify-center gap-1 md:gap-2 w-full items-center sm:items-start sm:mx-6 md:mx-10 lg:mx-16 xl:mx-20">
             <span className="">{title}</span>
@@ -30,16 +35,12 @@ const Hero = ({ src, title, name, array }) => {
               <span className="typedjs" ref={el}></span>
             </div>
           </div>
-          <div className="btn flex mx-8 gap-2 justify-center sm:justify-start items-center sm:mx-12 text-white lg:mx-24">
-            <Link href={"/About"}>
-              <button className="about-me-btn p-2 sm:p-3 text-sm rounded-sm bg-[#10171e] md:text-base">
-                About me
-              </button>
-            </Link>
-            <a href="./assets\Sir Amanat.docx" download="">
-              <button className="download-cv p-2 sm:p-3 text-sm md:text-base rounded-sm bg-[#5777ff]">
+          <div className="btn flex mx-8 gap-2 justify-center sm:justify-start items-center sm:mx-12 text-white lg:mx-24 my-6">
+            <button className="about-me-btn p-2 sm:p-3 text-sm rounded-sm bg-[#10171e] md:text-base" onClick={handleAbout}>
+              About me
+            </button>
+            <a href="Sir Amanat.docx" download="Amanat.docx" className="download-cv p-2 sm:p-3 text-sm md:text-base rounded-sm bg-[#5777ff]">
                 Download CV
-              </button>
             </a>
           </div>
         </div>
@@ -47,7 +48,7 @@ const Hero = ({ src, title, name, array }) => {
           <Image
             src={src}
             alt="auhtor-image"
-            className="ml-9 sm:mx-auto"
+            className="ml-2 sm:mx-auto"
             height={500}
             width={500}
           />
