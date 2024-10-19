@@ -6,9 +6,6 @@ import About from "./components/About";
 import Eduaction from "./components/Eduaction";
 import Contact from "./components/Contact";
 import Service from "./components/Services";
-import LocomotiveScroll from 'locomotive-scroll';
-
-const scroll = new LocomotiveScroll();
 
 export default function Home() {
   return (

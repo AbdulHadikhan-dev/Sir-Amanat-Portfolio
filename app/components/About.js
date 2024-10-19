@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import amanat from "@/app/assets/amanat.jpg";
+import amanat from "@/app/assets/amanat.jpg"; 
 
 const About = () => {
   return (
