@@ -41,7 +41,7 @@ const Navbar = () => {
   return (
     <>
       <header className="fixed body-font z-50 w-full flex justify-center">
-        <div className="w-full mx-auto flex flex-wrap px-16 p-5 flex-col max-md:flex-row max-md:mb-0 md:flex-row items-center max-md:p-6  max-sm:p-3 max-md:justify-between fixed bg-[#5777ff] bg-opacity-10 backdrop-blur-lg max-xl:px-14 max-lg:px-8">
+        <div className="w-full mx-auto flex flex-wrap px-16 p-5 flex-col max-md:flex-row max-md:mb-0 md:flex-row items-center max-md:p-6 max-sm:p-3 max-md:justify-between fixed bg-[#5777ff] bg-opacity-10 backdrop-blur-lg max-xl:px-14 max-lg:px-8">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 max-md:mb-0 md:mb-0">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +95,7 @@ const Navbar = () => {
             {height === "h-0" && <LuMenu className="h-8 w-8" />}
             {height === "h-56" && <RxCross2 className="h-8 w-8" />}
           </div>
-          <a href="Sir Amanat.docx" download className="max-md:hidden">
+          <a href="Amanat CV.docx" download className="max-md:hidden">
             <button className="inline-flex items-center bg-[#5777ff] border-[#5777ff] text-white border py-1 px-3 focus:outline-none hover:bg-white hover:text-[#5777ff] duration-300 rounded text-base mt-4 md:mt-0 hover:border-[#5777ff] max-lg:text-sm">
               Download CV
               <svg

@@ -39,7 +39,7 @@ const Hero = ({ src, title, name, array }) => {
             <button className="about-me-btn p-2 sm:p-3 text-sm rounded-sm bg-[#10171e] md:text-base" onClick={handleAbout}>
               About me
             </button>
-            <a href="Sir Amanat.docx" download="Amanat.docx" className="download-cv p-2 sm:p-3 text-sm md:text-base rounded-sm bg-[#5777ff]">
+            <a href="Amanat CV.docx" download="Amanat.docx" className="download-cv p-2 sm:p-3 text-sm md:text-base rounded-sm bg-[#5777ff]">
                 Download CV
             </a>
           </div>

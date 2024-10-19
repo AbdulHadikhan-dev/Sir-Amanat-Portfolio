@@ -25,6 +25,7 @@ html {
 } */
 .box:hover .logo {
   border: 1px solid #5777ff;
+  transition: all 0.2s linear;
 }
 /* 
 .about-me-btn:hover {

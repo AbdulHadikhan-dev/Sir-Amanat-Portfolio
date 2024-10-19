@@ -36,7 +36,7 @@ const Contact = () => {
           </div>
           <div className="detail text-gray-500 text-[10px] flex flex-col text-center md:text-sm 2xl:text-base">
             <span>amanatalee@gmail.com</span>
-            <span className="">www.amanat_ali.com</span>
+            <span className="">https://sir-amanat-portfolio.vercel.app/</span>
           </div>
         </div>
         <div className="address flex flex-col items-center md:w-1/2 md:gap-2">
