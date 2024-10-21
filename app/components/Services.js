@@ -19,26 +19,26 @@ const Services = () => {
           logo={<FaChalkboardTeacher className="h-10 w-10 lg:h-12 lg:w-12 2xl:h-16 2xl:w-16"/>}
           title={"IT INSTRUCTOR"}
           desc={
-            "An IT instructor teaches individuals or groups about information technology concepts, systems, and software. They develop and deliver educational materials and practical exercises to enhance technical skills and knowledge. Their goal is to prepare students for effective use of technology in various professional and personal contexts."
+            "With over several years of experience (Since August 2022) as an IT instructor at Lal Computer Institute, I have in-depth knowledge of Information Technology concepts, including networking, programming, database management, web development, and cybersecurity. I have successfully taught students at various levels, providing them with practical skills and theoretical understanding in IT. Expertised and Strong foundation in Information Technology, with hands-on experience in key areas such as, Computer Networks, Web Designing, Programming, Database Management"
           }
         />
         <Card
           logo={<SiAdobephotoshop className="h-10 w-10 lg:h-12 lg:w-12 2xl:h-16 2xl:w-16"/>}
           title={"GRAPHICS DESIGNER"}
           desc={
-            "A graphic designer creates visual content to communicate messages effectively through various media. They use tools and techniques to design layouts, logos, and other graphical elements, blending artistry with functionality. Their work enhances brand identity and user experience across digital and print platforms."
+            "Experienced in creating visually appealing designs for a variety of platforms, including Logo Designs, Banners, Posters, Flyers, and Social Media Posts. Expertise in Video Editing for promotional content, social media, and advertisements. Proficient in using industry-standard tools like Adobe Photoshop, Canva, Corel Draw, CapCut, and other graphic design platforms to produce high-quality designs tailored to client needs."
           }
         />
         <Card
           logo={<FaLaptopCode className="h-10 w-10 lg:h-12 lg:w-12 2xl:h-16 2xl:w-16"/>}
           title={"WEB DESIGN"}
-          desc="A frontend web designer creates the visual and interactive elements of a website that users engage with directly. They design layouts, user interfaces, and ensure a seamless user experience by working with HTML, CSS, and JavaScript. Their goal is to craft aesthetically pleasing and functional websites that align with the client &#39;s objectives."
+          desc="Capable of creating basic, responsive, and user-friendly web interfaces using HTML, CSS, and basic JavaScript. Skilled in designing simple layouts, implementing navigation, and ensuring compatibility across browsers."
         />
         <Card
           logo={<BsDatabaseAdd className="h-10 w-10 lg:h-12 lg:w-12 2xl:h-16 2xl:w-16"/>}
           title={"DATA ENTRY"}
           desc={
-            "Data entry involves inputting, updating, and managing information within digital databases or systems. It requires accuracy and attention to detail to ensure that data is correctly recorded and maintained. This task supports various functions by providing reliable and organized information for decision-making and analysis."
+            "Proficient in performing basic data entry tasks with accuracy and attention to detail. Experienced in handling spreadsheets, databases, and various data management tools to ensure efficient record-keeping and data organization."
           }
         />
       </div>

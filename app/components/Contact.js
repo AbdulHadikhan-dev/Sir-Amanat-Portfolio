@@ -35,7 +35,7 @@ const Contact = () => {
             Email & Website
           </div>
           <div className="detail text-gray-500 text-[10px] flex flex-col text-center md:text-sm 2xl:text-base">
-            <span>amanatalee@gmail.com</span>
+            <span>amnt8881@gmail.com</span>
             <span className="">https://sir-amanat-portfolio.vercel.app/</span>
           </div>
         </div>
@@ -47,7 +47,7 @@ const Contact = () => {
             Address
           </div>
           <div className="detail text-gray-500 text-[10px] flex flex-col text-center md:text-sm 2xl:text-base md:w-5/6">
-            HNo. 48 Nadir Shah Colony, Jam Sahib Road, Nawabshah
+          Muhalla Nadir Shah Colony Jam Sahib Road Nawabshah, SBA
           </div>
         </div>
         <div className="instagram flex flex-col items-center md:w-1/2 md:gap-2">

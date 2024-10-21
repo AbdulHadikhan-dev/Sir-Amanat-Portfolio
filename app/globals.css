@@ -27,6 +27,10 @@ html {
   border: 1px solid #5777ff;
   transition: all 0.2s linear;
 }
+
+.progress-bar{
+  transform-origin: 0%;
+}
 /* 
 .about-me-btn:hover {
   background-color: #5777ff;
