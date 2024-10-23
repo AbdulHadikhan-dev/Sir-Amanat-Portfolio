@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="left-section">&copy; 2024 Amanat All right reserved.</div>
       <div className="right-section links flex gap-6 items-center md:gap-8 lg:gap-12">
         <Link
-          href={"https://www.instagram.com/amanat_alee?igsh=dXQzNXdhMTVmOXV5"}
+          href={"https://www.instagram.com/_amanat__alee?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="}
         >
           <FaInstagram className="scale-150 cursor-pointer lg:h-4 lg:w-4" />
         </Link>
