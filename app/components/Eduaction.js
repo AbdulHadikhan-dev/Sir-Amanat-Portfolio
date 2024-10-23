@@ -18,7 +18,7 @@ const Eduaction = () => {
                 Matriculation
               </div>
               <div className="institute text-sm text-gray-500 md:text-base lg:text-lg">
-                BISE Hyderabad | School of Science | 2018
+                BISE Hyderabad | A-Grade | 2018 to 2020
               </div>
             </div>
           </div>
@@ -29,7 +29,7 @@ const Eduaction = () => {
                 Intermediate
               </div>
               <div className="institute text-sm text-gray-500 md:text-base lg:text-lg">
-                BISE SBA | College of Engeneering | 2022
+                BISE Nawabshah | A-Grade | 2020 to 2022
               </div>
             </div>
           </div>
@@ -40,7 +40,7 @@ const Eduaction = () => {
                 BS Computer Science
               </div>
               <div className="institute text-sm text-gray-500 md:text-base lg:text-lg">
-                Quaid e Awam University | Continue
+                Quaid-e-Awam University | 2022 to 2026 (Expected)
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@ const Eduaction = () => {
                 Diploma in IT
               </div>
               <div className="institute text-sm text-gray-500 md:text-base lg:text-lg">
-                SBTE Karachi | Lal Computer institute | 2022
+                Lal Computer Institute | SBTE Karachi | 2021 to 2022
               </div>
             </div>
           </div>
