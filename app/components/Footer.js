@@ -14,7 +14,7 @@ const Footer = () => {
         >
           <FaInstagram className="scale-150 cursor-pointer lg:h-4 lg:w-4" />
         </Link>
-        <Link href={"https://www.tiktok.com/@amanat_alee?_t=8ocFgXvvIXQ&_r=1"}>
+        <Link href={"https://www.tiktok.com/@_amanat__alee?is_from_webapp=1&sender_device=pc"}>
           <FaTiktok className="scale-150 cursor-pointer lg:h-4 lg:w-4" />
         </Link>
         <Link href={"https://www.facebook.com/itsHenryyyy?mibextid=ZbWKwL"}>

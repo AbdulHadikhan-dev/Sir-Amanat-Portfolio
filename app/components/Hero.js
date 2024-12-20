@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
@@ -35,14 +36,21 @@ const Hero = ({ src, title, name, array }) => {
             </div>
           </div>
           <div className="btn flex mx-8 gap-2 justify-center sm:justify-start items-center sm:mx-12 text-white lg:mx-24 my-6">
-            <button className="about-me-btn p-2 sm:p-3 text-sm rounded-sm hover:rounded-full hover:shadow duration-300 hover:scale-105 bg-[#10171e] md:text-base" onClick={handleAbout}>
-
+            <Button
+              className="about-me-btn bg-[#5777ff] hover:bg-blue-600"
+              onClick={handleAbout}
+            >
               About me
-            </button>
-            <a href="Amanat CV.docx" download="Amanat.docx" className="download-cv p-2 sm:p-3 text-sm md:text-base rounded-sm hover:scale-105 hover:rounded-full hover:shadow duration-300 bg-[#5777ff]">
-
+            </Button>
+            <Button variant="outline" className={"text-black"}>
+              <a
+                href="Amanat CV.docx"
+                download="Amanat.docx"
+                // className="download-cv p-2 sm:p-3 text-sm md:text-base rounded-sm hover:scale-105 hover:rounded-full hover:shadow duration-300 bg-[#5777ff]"
+              >
                 Download CV
-            </a>
+              </a>
+            </Button>
           </div>
         </div>
         <div className="right-section w-full sm:w-[50%] sm:flex sm:justify-center overflow-hidden lg:pt-16">
