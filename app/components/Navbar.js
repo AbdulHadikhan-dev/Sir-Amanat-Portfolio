@@ -9,7 +9,7 @@ const Navbar = () => {
 
   const handleToggleSideMenu = () => {
     if (height === "h-0") {
-      setHeight("h-56");
+      setHeight("h-64");
     } else {
       setHeight("h-0");
     }
@@ -26,8 +26,8 @@ const Navbar = () => {
   };
 
   const handleService = () => {
-    document.body.scrollTop = 2980; // For Safari
-    document.documentElement.scrollTop = 2980; // For Chrome, Firefox, IE and Opera
+    document.body.scrollTop = 3980; // For Safari
+    document.documentElement.scrollTop = 3980; // For Chrome, Firefox, IE and Opera
   };
 
   const handleContact = () => {
@@ -37,6 +37,10 @@ const Navbar = () => {
   const handleEducation = () => {
     document.body.scrollTop = 1440; // For Safari
     document.documentElement.scrollTop = 1440; // For Chrome, Firefox, IE and Opera
+  };
+  const handleDesign = () => {
+    document.body.scrollTop = 2980; // For Safari
+    document.documentElement.scrollTop = 2980; // For Chrome, Firefox, IE and Opera
   };
   return (
     <>
@@ -86,6 +90,12 @@ const Navbar = () => {
             </a>
             <a
               className="mr-5 lg:mr-4 hover:text-[#5777ff] cursor-pointer font-medium text-lg duration-300  max-xl:text-base max-lg:text-sm"
+              onClick={handleDesign}
+            >
+              my Designs
+            </a>
+            <a
+              className="mr-5 lg:mr-4 hover:text-[#5777ff] cursor-pointer font-medium text-lg duration-300  max-xl:text-base max-lg:text-sm"
               onClick={handleService}
             >
               Services
@@ -93,7 +103,7 @@ const Navbar = () => {
           </nav>
           <div className="sidebar md:hidden" onClick={handleToggleSideMenu}>
             {height === "h-0" && <LuMenu className="h-8 w-8" />}
-            {height === "h-56" && <RxCross2 className="h-8 w-8" />}
+            {height === "h-64" && <RxCross2 className="h-8 w-8" />}
           </div>
           <a href="Amanat CV.docx" download className="max-md:hidden">
             <button className="inline-flex items-center bg-[#5777ff] border-[#5777ff] text-white border py-1 px-3 focus:outline-none hover:bg-white hover:text-[#5777ff] duration-300 rounded text-base mt-4 md:mt-0 hover:border-[#5777ff] max-lg:text-sm">
@@ -120,6 +130,7 @@ const Navbar = () => {
         handleContact={handleContact}
         handleEducation={handleEducation}
         handleService={handleService}
+        handleDesign={handleDesign}
       />
     </>
   );

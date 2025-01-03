@@ -31,22 +31,10 @@ html {
 .progress-bar{
   transform-origin: 0%;
 }
-/* 
-.about-me-btn:hover {
-  background-color: #5777ff;
-}
 
-.about-me-btn:hover, .download-cv {
-  background-color: #10171e;
+.swiper-slide{
+  width: fit-content;
 }
-
-.download-cv:hover {
-  background-color: #10171e;
-}
-
-.download-cv:hover, .about-me-btn {
-  background-color: #5777ff;
-} */
 @layer base {
   :root {
     --background: 0 0% 100%;

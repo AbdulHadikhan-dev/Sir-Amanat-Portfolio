@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import Service from "./components/Services";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Design from "./components/Design";
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
@@ -30,6 +31,8 @@ export default function Home() {
         <Eduaction />
         <div className="w-full h-2 bg-[#242b41]"></div>
         <Contact />
+        <div className="w-full h-2 bg-[#242b41]"></div>
+        <Design/>
         <div className="w-full h-2 bg-[#242b41]"></div>
         <Service />
         <Footer />
