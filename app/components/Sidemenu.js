@@ -6,7 +6,7 @@ const Sidemenu = ({ height, handleHome, handleAbout, handleEducation, handleCont
     <div className="about" onClick={handleAbout}>About</div>
     <div className="eduactoion" onClick={handleEducation}>Education</div>
     <div className="contact" onClick={handleContact}>Contact</div>
-    <div className="design" onClick={handleDesign}>Design</div>
+    <div className="design" onClick={handleDesign}>Works</div>
     <div className="services" onClick={handleService}>Services</div>
   </div>;
 };

@@ -92,7 +92,7 @@ const Navbar = () => {
               className="mr-5 lg:mr-4 hover:text-[#5777ff] cursor-pointer font-medium text-lg duration-300  max-xl:text-base max-lg:text-sm"
               onClick={handleDesign}
             >
-              my Designs
+              my works
             </a>
             <a
               className="mr-5 lg:mr-4 hover:text-[#5777ff] cursor-pointer font-medium text-lg duration-300  max-xl:text-base max-lg:text-sm"
